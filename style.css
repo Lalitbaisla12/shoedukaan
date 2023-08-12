@@ -1,0 +1,172 @@
+
+main{
+    position: relative;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #000000, #e74c3c);;
+}
+h4 {
+    color: white;
+}
+.lowerheader{
+    width: 100%;
+    height: 50px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+   
+
+}
+.text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sp {
+    margin: 20px;
+    list-style: none;
+}
+#width{
+    width: 350px;
+    height: 25px;
+}
+.mid {
+    width: 100%;
+    height: 350px;
+    border: 2px solid black;
+    background-image: url(shoe.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sale{
+    width: 60%;
+    height: 190px;
+    margin: 90px 0 0 130px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: block;
+    padding: 1%;
+    
+}
+.a{
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+.b {
+    font-weight: bold;
+    color: white;
+    display: block;
+}
+*{
+    box-sizing: border-box;
+    display: block;
+}
+.lowermid{
+    width: 100%;
+    background-color: #E5E5E5;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.cenmid{
+    width: 90%;
+    height:80%;
+    background-color: #A0A0A0;
+    
+}
+#heading{
+    margin-left: 15px;
+}
+.photos{
+    display: flex;
+    height: 73%;
+    width: 35%;
+    
+    margin-top: -18px;
+    margin-left: 10px;
+}
+.photo1{
+    height: 100%;
+    width: 400px;
+    
+    background-color: #606060;
+    margin-right: 8px;
+}
+.photo2{
+    height: 100%;
+    width: 400px;
+    background-color: #606060;
+    margin-right: 8px;  
+}
+.photo3{
+    height: 100%;
+    width: 400px;
+    background-color: #606060;
+    margin-right: 8px;
+}
+#col{
+    color: #E5E5E5;
+}
+.footer{
+    width: 100%;
+    height: 650px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left,black,grey);
+    
+}
+.inner {
+    height: 75%;
+    width: 85%;
+    background: linear-gradient(to right, #000000, #e74c3c);
+    display: flex;  
+    padding: 2%;
+    box-shadow: 0px 0px 10px gray;
+    
+}
+.des{
+    color: white;
+    height: 90%;
+    width: 45%;
+    font-size: larger;
+    transition: transform 0.3s; 
+  transform-origin: right center;
+
+}
+.data{
+    margin-bottom: 30px;
+}
+#shoe5 {
+    height: 300px;
+    width: 300px;
+    margin: 15px 0 0 285px;
+    border-radius: 150px;
+    box-shadow: 8px 8px 8px white;
+}
+script{
+    display: none;
+}
+#glass{
+    margin-left: -55px;
+}
+title{
+    display: none;
+}
+#shoe5:hover{
+    transform: scale(1.6);
+}
